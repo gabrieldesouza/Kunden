@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Metas Page details-->
+<title>Kunden - Pessoas fazem a diferença</title>
+<meta name="description" content="UX designer and web developer">
+<meta name="author" content="">
+<!-- Mobile Specific Metas-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--main style-->
+<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/component.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+<link rel="shortcut icon" type="image/png" href="images/favico.png"/>
+<!--google font style-->
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700,800,100' rel='stylesheet' type='text/css'>
+<!--font-family: 'Raleway', sans-serif; -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600italic,600,700italic,700' rel='stylesheet' type='text/css'>
+<!--font-family: 'Open Sans', sans-serif; -->
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<!--font-family: 'Montserrat', sans-serif; -->
+
+<!-- font icon css style-->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<style>
+
+#wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.janela {
+/*   width: 50%; */
+  background: #fff;
+  padding: 3rem;
+  text-align: center;
+}
+
+
+#wrap:not(:target) {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s, visibility 1s;
+}
+
+#wrap:target {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 1s, visibility 1s;
+}
+
+.open a {
+  text-decoration: none;
+  color: white;
+}
+</style>
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+
+</head>
+<body onLoad="load()" onUnload="GUnload()">
+<div id="wrap">
+  <div class="janela">
+    <h2>I'm A Sleek Modal</h2>
+    <p>Pretty sweet, eh?</p>
+    <br/>
+    <a class="close btn" href="#">Close Me!</a>
+  </div>
+</div>
+<!--wrapper start-->
+<div class="wrapper" id="wrapper">
+<!-- Preloader -->
+<div id="preloader">
+	<div id="status"></div>
+</div>
+<!--Header start -->
+<header>
+		<!--Language -->
+        	<div class="container">
+            	<div class="row relative">
+            	<ul class="language">                
+                <li>
+                <a href="index.html" class="portuguese" style="margin-top: -14px;"><img src="images/br.png"> Portugues</a>
+                <a href="in.html" ><img src="images/in.png"> Ingles</a>
+                <a href="en.html" class="spanish" style="margin-top: -14px;"><img src="images/es.png"> Espanhol</a>
+                </li>
+            </ul>
+            </div>        
+            </div>
+		<!--/Language -->
+        <!--menu start-->
+        <div class="menu">        
+          <div class="navbar-wrapper">
+            <div class="container">            
+              <div class="navwrapper">
+                <div class="navbar navbar-inverse navbar-static-top">
+                  <div class="container">
+                    <div class="logo"><img src="images/logo1.png"> </div> 
+                    <nav class="navArea">
+                        <div class="navbar-header">
+                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                          </div>
+                        <div class="navbar-collapse collapse">
+                          
+                          
+                          <ul class="nav navbar-nav" id="navigation">   
+                           <li class="menuItem" id="home"><a href="#wrapper">Início</a></li>
+                      <li class="menuItem"><a href="#about">La Empresa</a></li>
+                      <li class="menuItem"><a href="#services">Soluciones</a></li>
+                      <li class="menuItem"><a href="#works">Portafolio</a></li>
+                      <li class="menuItem"><a href="#team">ERP</a></li>
+                      <li class="menuItem"><a href="#testimonial">Servicios</a></li>
+                      <li class="menuItem"><a href="#suporte">Soporte</a></li>
+                      <li class="menuItem"><a href="#contact">Contacto</a></li>
+                          </ul>
+                        </div>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+              <!-- End Navbar -->
+            </div>
+          </div>
+        </div>
+        <!--menu end-->  
+        
+        <!--banner start-->
+        <div class="banner row" id="banner">
+          <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12 noPadd slides-container" style="height:100%"> 
+            <!--background slide show start-->
+            <div class="slide"> 
+              <!--header text1 start-->
+              <div class="container hedaer-inner">
+                  <div class="bannerText">
+                  	<h1>Kunden </h1>
+                    <h3>Personas hacen la diferencia.</h3>
+                    <p>Con muchos años en este ramo absorbemos conocimientos e innovamos nuestros conceptos lo que permitió actuar con diferentes segmentos, primando por la calidad de nuestros proyectos.</p>
+                    <p class="banner-link"><a href="#about" class="smooth">Nuestra introducción <i class="fa fa-chevron-down"></i></a></p>
+                   </div>
+               </div>
+              <!--header text end--> 
+              <img src="images/h3.jpg" alt="image01"></div>       
+              <div class="slide"> 
+              <!--header text1 start-->          
+              <div class="container hedaer-inner">
+                  <div class="bannerText">
+                  	<h1>Kunden </h1>
+                    <h3>Personas hacen la diferencia.</h3>
+                    <p>Con muchos años en este ramo absorbemos conocimientos e innovamos nuestros conceptos lo que permitió actuar con diferentes segmentos, primando por la calidad de nuestros proyectos.</p>
+                    <p class="banner-link"><a href="#services" class="smooth">Nuestras soluciones <i class="fa fa-chevron-down"></i></a></p>
+                   </div>
+               </div>
+              <!--header text end--> 
+              <img src="images/h1.png" alt="image01"> </div> 
+              <div class="slide"> 
+              <!--header text1 start-->          
+              <div class="container hedaer-inner">
+                  <div class="bannerText">
+                    <h1>Kunden </h1>
+                    <h3>Personas hacen la diferencia.</h3>
+                    <p>Con muchos años en este ramo absorbemos conocimientos e innovamos nuestros conceptos lo que permitió actuar con diferentes segmentos, primando por la calidad de nuestros proyectos.</p>
+                    <p class="banner-link"><a href="#services" class="smooth">Nuestras soluciones <i class="fa fa-chevron-down"></i></a></p>
+                   </div>
+               </div>
+              <!--header text end--> 
+              <img src="images/h2.jpg" alt="image01"> </div> 
+            <!--background slide show end-->
+          </div>
+        </div>
+        <!--banner end--> 
+    
+    </header>
+<!--Header end -->  
+<!--Welcome section start -->
+  <section class="white_section section_gap" id="about">
+    <div class="container">
+      <div class="heading">
+        <h1><span>Bien viniendo a</span> Kunden</h1>
+      </div>
+      <div class="row sec_top_gp">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 noPaddLeft welcome">
+          <h1 class="welcome_heading font-light">Sistemas para gestión empresarial.</h1>
+        </div>
+        <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 welcomr_text">
+          <p>La Kunden Systems nació de la gana de hacer y crear nuevos caminos, superar desafíos y crecer, para así presentar nuevas propuestas y oportunidades al mercado. Nuestro objetivo es la integración entre el sistema y cliente. Contando con un equipo de profesionales especializados, capacitados a planear y utilizar estrategias inteligentes, en la búsqueda continua de la consolidación de resultados. Comprendemos la realidad de cada negocio, adaptando nuestra solución al tamaño de su empresa.</p>
+          <p>Muy más que un software y mucho además de desarrollar un sistema para gestión empresarial, la Kunden Systems oferta un paquete completo de asesoría para realmente obtener resultados en la aplicación del software en la gestión, optimizando los procesos de organización en su empresa.</p>
+        </div>
+      </div>
+      <div class="row sec_top_gp">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="welcome_listing"> <span><i class="fa fa-magic"></i></span>
+            <h3>Objetivos</h3>
+            <p>Alcanzar resultados de alto impacto para nuestros clientes agregando valor a sus negocios, fortaleciendo sus relaciones con el mercado en general.</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="welcome_listing"> <span><i class="fa fa-leaf"></i></span>
+            <h3>Ideas innovadoras</h3>
+            <p>Siempre con un paso el frente pensando en el futuro y en el que hay de mejor para crear innovadores proyectos en el mercado.</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="welcome_listing"> <span><i class="fa fa-paper-plane"></i></span>
+            <h3>Soporte</h3>
+            <p>Atención las dudas operacionales en la utilización del sistema, cambios determinados por legislación y nuevas versiones del producto.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/Welcome section end--> 
+  <!--What we do section start-->
+  <section class="orange_section section_gap" id="services">
+    <div class="container">
+      <div class="heading">
+        <h1><span>Soluciones</span> empresariales</h1>
+      </div>
+      <div class="row sec_top_gp">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ourservice-col"> <span class="ico"><img src="images/kundenerp.png" ></span>
+          <h5>Kunden ERP</h5>
+          <p>El sistema de gestión fue desarrollado para ser una herramienta estratégica en la gestión de pequeñas a grandes empresas... </p>
+          <div class="text-center button-container"><a class="anchor" id="demo01" href="#animatedModal">sepa más</a></div>
+
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ourservice-col"> <span class="ico"><img src="images/romanscad.png"></span>
+          <h5>Romans CAD</h5>
+          <p>Si quiere ganar en productividad y obtener el mejor ROI del mercado, tiene que apostar en una solución de CAD/PDM, Romans CAD es la elección...</p>
+          <div class="text-center button-container"><a class="anchor" id="demo02" href="#lightSpeedIn">sepa más</a></div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ourservice-col"> <span class="ico"><img src="images/ivendre.png"></span>
+          <h5>iVendre</h5>
+          <p>iVendre uno modulo de gestión, control y venta de sus productos, la solución que usted busca para maximizar su productividad de ventas...</p>
+          <div class="text-center button-container"><a class="anchor" id="demo03" href="#teste">sepa más</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/What we do section end--> 
+  <!--Our latest project section start-->
+  <section class="white_section protfolio section_gap" id="works">
+    <div class="container">
+      <div class="heading">
+        <h1><span>Nuestros </span>proyectos</h1>
+      </div>
+    </div>
+    <div class="row sec_top_gp">
+      <div class="portfolioFilter">
+        <ul>
+          <li><a href="#" data-filter=".graphic" class="current">Kunden ERP</a></li>
+          <li><a href="#" data-filter=".branding">Romans CAD</a></li>
+          <li><a href="#" data-filter=".mobile">iVendre</a></li>
+          <li><a href="#" data-filter=".bi">BI</a></li>
+        </ul>
+      </div>
+      <ul class="portfolioContainer grid row">
+        <li class="graphic col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure ><img src="images/KundenERP/logo/1.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/KundenERP/1.png" title="Kunden ERP" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+                <li class="graphic col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure ><img src="images/KundenERP/logo/2.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/KundenERP/2.png" title="Kunden ERP" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+                <li class="graphic col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure ><img src="images/KundenERP/logo/3.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/KundenERP/3.png" title="Kunden ERP" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+                <li class="graphic col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure ><img src="images/KundenERP/logo/4.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/KundenERP/4.png" title="Kunden ERP" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+                <li class="graphic col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure ><img src="images/KundenERP/logo/5.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/KundenERP/5.png" title="Kunden ERP" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+                <li class="graphic col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure ><img src="images/KundenERP/logo/6.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/KundenERP/6.png" title="Kunden ERP" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+                <li class="graphic col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure ><img src="images/KundenERP/logo/7.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/KundenERP/7.png" title="Kunden ERP" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+                <li class="graphic col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure ><img src="images/KundenERP/logo/8.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/KundenERP/8.png" title="Kunden ERP" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+        <li class="branding col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure><img src="images/RomansCAD/logo/1.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/RomansCAD/1.png" title="Romans CAD" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+                <li class="branding col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure><img src="images/RomansCAD/logo/2.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/RomansCAD/2.png" title="Romans CAD" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+                <li class="branding col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure><img src="images/RomansCAD/logo/3.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/RomansCAD/3.png" title="Romans CAD" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+                <li class="branding col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure><img src="images/RomansCAD/logo/4.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/RomansCAD/4.png" title="Romans CAD" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+        <li class="mobile col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure class="effect-sadie"><img src="images/iVendre/logo/1.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/iVendre/1.png" title="iVendre" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+        <li class=" mobile  col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure class="effect-sadie"><img src="images/iVendre/logo/2.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/iVendre/2.png" title="iVendre" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+                <li class=" bi  col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure class="effect-sadie"><img src="images/BI/logo/1.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/BI/1.png" title="BI" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+                        <li class=" bi  col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure class="effect-sadie"><img src="images/BI/logo/2.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/BI/2.png" title="BI" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+                        <li class=" bi  col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure class="effect-sadie"><img src="images/BI/logo/3.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/BI/3.png" title="BI" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+                        <li class=" bi  col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure class="effect-sadie"><img src="images/BI/logo/4.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/BI/4.png" title="BI" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+                        <li class=" bi  col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure class="effect-sadie"><img src="images/BI/logo/5.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/BI/5.png" title="BI" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+                        <li class=" bi  col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure class="effect-sadie"><img src="images/BI/logo/6.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/BI/6.png" title="BI" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+                        <li class=" bi  col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure class="effect-sadie"><img src="images/BI/logo/7.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/BI/7.png" title="BI" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+                        <li class=" bi  col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure class="effect-sadie"><img src="images/BI/logo/8.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/BI/8.png" title="BI" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+                        <li class=" bi  col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <div class="lightCon">
+            <figure class="effect-sadie"><img src="images/BI/logo/9.png" alt="">
+              <figcaption>
+                <a rel="lightbox-demo" href="images/BI/9.png" title="BI" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+            </figure>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="text-center button-container"><a href="#" class="anchor">Portfolio completo em breve</a></div>
+  </section>
+  <!--/Our latest project section end --> 
+  <!--Meet our Team section start -->
+  <section class="white_section section_gap" id="team">
+    <div class="container">
+      <div class="heading">
+        <h1><span>SISTEMA</span> ERP</h1>
+      </div>
+      <div class="row sec_top_gp">
+        <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 meet_team_left">
+          <h1 class="welcome_heading font-light"><b>Kunden ERP</b></h1>
+          <p>El sistema de gestión fue desarrollado para ser una herramienta estratégica en la gestión de pequeñas a grandes empresas, siempre con el foco en la realidad de cada cliente. Este sistema es compuesto por varios módulos integrados, que optimizan y agilizan todos los procesos comerciales, administrativos e industriales, proporcionando datos seguros y confiables para las tomas de decisión.</p>
+		<h1 class="welcome_heading font-light"><b>Curtumes</b></h1>
+		<p>ERP completo para curtumes <b>(Industrial, Comercial y Administrativo)</b>, enfocado especialmente en la gestión de la producción, desde la planificación la contraloría. Especializado en automatización de suelo de fábrica, integrado con máquinas y dispositivos, clasificación con <b>control de marca (proveedor)</b>y rastreabilidad de lote, recolección de datos en tiempo real a través de <b>dispositivos móviles (tablets/desktops) con lectura de códigos de barras</b>, control de consumos (materias-primas e insumos), fórmulas de fulões (Caleiro/Curtimento/Recurtimento) y acabado que integrados con sistemas de gestión de recetas (automatización de fulões) y/o balanzas electrónicas garantizan praticidade y fiabilidad de la información. Coste previsto x real con control de rendimiento por pedido/lote/etc. <b>Garantizando un análisis confiable de la rentabilidad de su curtume</b>. Único ERP que controla curtume así como fábrica de calzados (seguridad entre otros).</p>
+        </div>
+        <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+          <center><img src="images/modulos.png" style="margin-top: 8%;"></center>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/Meet our Team section end--> 
+  <!--Stats numbers section start-->
+  <section class="black_section numbers_section factabout">
+    <div class="container">
+<ul class="numbers countarea row">
+        <li> <i class="fa fa-smile-o"></i>
+          <h3 class="timer" id="gravity" data-from="100" data-to="24500" data-speed="10000">24500</h3>
+          <span>Horas trabajadas</span> </li>
+        <li> <i class="fa fa-smile-o"></i>
+          <h3 class="timer" id="gravity" data-from="100" data-to="4500" data-speed="10000">4500</h3>
+          <span>TAZAS de cafés</span> </li>
+        <li> <i class="fa fa-smile-o"></i>
+          <h3 class="timer" id="gravity" data-from="100" data-to="2200" data-speed="10000">2200</h3>
+          <span>Proyectos realizados</span> </li>
+        <li> <i class="fa fa-smile-o"></i>
+          <h3 class="timer" id="gravity" data-from="100" data-to="1450" data-speed="10000">1450</h3>
+          <span>USUARIOS felices</span> </li>
+        <li> <i class="fa fa-smile-o"></i>
+          <h3 class="timer" id="gravity" data-from="100" data-to="550" data-speed="10000">550</h3>
+          <span>SOPORTES REALIZADOS</span> </li>
+      </ul>
+    </div>
+  </section>
+  <!--/Stats numbers section end--> 
+  <!--Our happy Customers section start-->
+  <section class="grey_section section_gap" id="testimonial">
+    <div class="container">
+      <div class="heading">
+        <h1><span>NUESTROS </span> SERVICIOS</h1>
+      </div>
+      <div class="row sec_top_gp">
+        <div class="imageSlide">
+          <div class="imageBox"><img src="images/AE.png" width="98" height="98" alt=""></div>
+          <div class="imageBox"><img src="images/FO.png" width="98" height="98" alt=""></div>
+          <div class="imageBox"><img src="images/CG.png" width="98" height="98" alt=""></div>
+        </div>
+        <div class="footerTopContent">
+          <div class="quote"><i class="fa fa-quote-left"></i></div>
+          <ul class="slides testimonialText list-unstyled">
+            <li>
+              <p class="font-openBold">Integración de sistemas CAD/CAM con el Kunden ERP. Creación de modelos de indicadores de desempeño, proporcionando subsidios para la planificación del negocio. Gestión de procesos operacionales y administrativos, con enfoque en reducción de costes y mejoría de resultados.</p>
+              <h3 class="uppercase">Asesoría empresarial</h3>
+            </li>
+            <li>
+              <p class="font-openBold">Especificaciones para atender particularidades de cada empresa, preservando los diferenciales competitivos a través de aplicaciones desarrolladas bajo-medida.</p>
+              <h3 class="uppercase">Proyectos específicos</h3>
+            </li>
+            <li>
+              <p class="font-openBold">Califica usuarios en todos los niveles, garantizando la rápida absorción de los beneficios del sistema y alta productividad.</p>
+              <h3 class="uppercase">Entrenamiento</h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/Our happy Customers section end--> 
+  <!--Company Logo section start-->
+  <section class="lightblue_section companylogo" id="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 worlcompany">
+          <div class="worklogo">
+            <ul class="slides">
+              <li><img src="images/p1.png" alt=""></li>
+              <li><img src="images/p2.png" alt=""></li>
+              <li><img src="images/p3.png" alt=""></li>
+              <li><img src="images/p4.png" alt=""></li>
+              <li><img src="images/p6.png" alt=""></li>
+              <li><img src="images/p7.png" alt=""></li>
+              <li><img src="images/p8.png" alt=""></li>
+              <li><img src="images/p9.png" alt=""></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <section class="grey_section section_gap" id="suporte">
+    <div class="container">
+      <div class="heading">
+        <h1>SOPORTE</h1>
+      </div>
+      <div class="row sec_top_gp">
+        <div class="footerTopContent">
+<div class="row">
+<p>Atención las dudas operacionales en la utilización del sistema, cambios determinados por legislación y nuevas versiones del producto.</p>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ourservice-col"> <span class="ico"><a href="http://www.kunden.com.br/suporte/suporte.exe"><img src="images/supp.png"></a></span>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ourservice-col"> <span class="ico"><a href="http://www.kunden.com.br:7777/admknd/f?p=103"><img src="images/crm.png"></a></span>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ourservice-col"> <span class="ico"><a href="ftp://ftp.kunden.com.br/"><img src="images/downloads.png"></a></span>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="white_section section_gap"  id="contact">
+    <div class="container">
+      <div class="heading">
+        <h1><span>ENTRE EN </span> CONTACTO</h1>
+      </div>
+      <div class="row sec_top_gp">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <h3 class="font-bold uppercase">Escritorio informaciones</h3>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <p>Kunden system<br>
+                Carretera BR 116, nº. 8994, km 222, Bairro Bela Vista<br> Dois Irmãos - RS, CEP: 93950-000</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <h4>Telefone</h4>
+              <p>+55 (51) 3038-5558<br>
+                </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <h4>Horario de funcionamiento</h4>
+              <p>Segunda la Sexta - 7:30 ás 12:00 e 13:00 ás 17:18<br>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <h3 class="font-bold uppercase">Envíe un mensaje!</h3>
+          <div id="message"></div>
+          <form method="post" action="php/contact.php" name="cform" id="cform">
+        <div class="form-row clearfix">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 first"><input name="fname" id="fname" type="text" placeholder="Premiero nome" class="normal"></div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 last"><input name="lname" id="lname" type="text" placeholder="Sobrenome" class="normal"></div>
+          </div>
+          <div class="form-row clearfix">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 first">
+          <input name="email" id="email" type="email" placeholder="Email" class="normal">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 last"><input name="phone" id="phone" type="text" placeholder="Telefone" class="normal"></div>
+          </div>
+          <div class="form-row clearfix">
+          <textarea name="comments" id="comments" cols="" rows="" placeholder="Mensagem" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 normal medium"></textarea>
+          </div>
+          <input type="submit" id="submit" name="send" class="button" value="Envíe mensaje">
+          <div id="simple-msg"></div>
+        </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/Contact section end--> 
+  <!--Google map section start -->
+  <div class="contactInfo mapArea">
+    <div id="map" style="width: 100%; height: 100%"></div>
+  </div>
+  <!--/Google map section end--> 
+  <!--Bottom Four Column section start-->
+  <!--/Bottom Four Column section end --> 
+  <!--Footer -->
+  <footer class="footer white_section">
+    <div class="container">
+      <div class="row">
+        <div class="pull-left">
+          <p>&copy; 2016 Kunden system. Todos derechos reservados.</p>
+        </div>
+        <div class="pull-right">
+          <div class="socialshare"> <a href="#"><i class="fa fa-facebook"></i></a> </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--Footer end --> 
+  <a class="gototop smooth" href="#wrapper"><i class="fa fa-caret-up"></i></a> </div>
+<!--wrapper end-->  
+
+<!--modernizr js--> 
+<script type="text/javascript" src="js/modernizr.custom.26633.js"></script> 
+<!--jquary min js--> 
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script> 
+
+<script src="js/bootstrap.min.js"></script> 
+
+<!--for placeholder jquery--> 
+<script type="text/javascript" src="js/jquery.placeholder.js"></script> 
+
+<!--for header jquery--> 
+<script type="text/javascript" src="js/stickUp.js"></script> 
+<script src="js/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+	$('#banner').superslides({
+	  animation: 'fade',
+	  play: 5000
+	});
+</script>  
+
+<!--for portfolio jquery--> 
+<script src="js/jquery.isotope.js" type="text/javascript"></script> 
+<link rel='stylesheet' property='stylesheet' id='theme'  href='css/jquery-ui-1.8.16.custom.css' type='text/css' media='all' />
+
+<link rel='stylesheet' property='stylesheet'  href='css/lightbox.min.css' type='text/css' media='all' />
+<script type="text/javascript" src="js/jquery.ui.widget.min.js"></script> 
+<script type="text/javascript" src="js/jquery.ui.rlightbox.js"></script> 
+
+
+<!--contact form js--> 
+<script type="text/javascript" src="js/jquery.contact.js"></script> 
+<script src="http://maps.google.com/maps?file=api&amp;v=2.x&amp;key=AIzaSyAf_oEL17SdMB_fBalO-XPzyOKUrQ6D8JM" type="text/javascript"></script>
+<script type="text/javascript">
+    //<![CDATA[
+    var map;
+
+    function load() {
+      if (GBrowserIsCompatible()) {
+        map = new GMap2(document.getElementById("map"));
+        map.setCenter(new GLatLng(-29.579586, -51.095841), 13);
+        document.getElementById("map").checked = true;
+        toggleZoom(false);
+      }
+    }
+
+    function toggleZoom(isChecked) {
+      if (isChecked) {
+        map.enableScrollWheelZoom();
+      } else {
+        map.disableScrollWheelZoom();
+      }
+    }
+
+    //]]>
+</script> 
+
+<!--about jquery--> 
+<script defer src="js/jquery.flexslider.js"></script> 
+
+<!--for coundown jquary--> 
+<script type="text/javascript" src="js/jquery.countTo.js"></script> 
+
+<script src="js/jquery.easing.js"></script> 
+<script src="js/jquery.mousewheel.js"></script> 
+<script defer src="js/slideroption.js"></script> 
+
+<script type="text/javascript">
+jQuery(function($) {
+$(document).ready( function() {
+	"use strict";						
+	//enabling stickUp on the '.navbar-wrapper' class
+		$('.navbar-wrapper').stickUp({
+			parts: {
+			  0: 'banner',
+			  1: 'about',
+			  2: 'services',
+			  3: 'works',
+			  4: 'team',
+			  5: 'testimonial',
+			  6: 'blog',
+			  7: 'contact'
+			},
+			itemClass: 'menuItem',
+			itemHover: 'active',
+			topMargin: 'auto'
+			});
+		
+		// run rlightbox
+		$( ".lb" ).rlightbox();
+		$( ".lb_title-overwritten" ).rlightbox({overwriteTitle: true});
+		
+		$('.flexslider').flexslider({
+			animation: "fade",
+			animationLoop: true,
+			slideshow: true,
+			pauseOnAction: false,
+			slideshowSpeed: 7000,
+			controlNav: true,
+			start: function(slider){
+			$('body').removeClass('loading');
+			}
+		});
+		
+		//Home Testimonial 
+		var activeImage;
+		var getmaxHeight = 0;
+		$(".testimonialText li").each(function(index, element) {
+			if($(this).height()>getmaxHeight){
+				getmaxHeight = $(this).height();
+				$(".footerTopContent").height(getmaxHeight);
+				}
+		});
+		
+		$(".testimonialText li").fadeTo("fast",0);
+		$(".testimonialText li:first").fadeTo("fast",1);
+		$(".imageSlide .imageBox").removeClass("activeImage");
+		$(".imageSlide .imageBox:first").addClass("activeImage");
+		$(".imageSlide .imageBox").mouseenter(function(){
+			if(!$(this).hasClass("activeImage")){
+				var gi = $(this).index();
+				//console.log(gi);
+				$(".imageSlide .imageBox").removeClass("activeImage");
+				$(this).addClass("activeImage");
+				$(".testimonialText li").fadeTo("fast",0);
+				$(".testimonialText li:eq("+gi+")").fadeTo("fast",1);
+				}
+		})
+		
+	if ($(window).width() > 960) {
+	  $('.worklogo').flexslider({
+		animation: "slide",
+		slideshow: true,
+		itemWidth: 186,
+		itemMargin: 0	
+	  });
+	}
+	else {
+	  $('.worklogo').flexslider({
+		animation: "slide",
+		slideshow: true,
+		itemWidth: 186,
+		itemMargin: -2	
+	  });
+	}
+	
+	});
+
+	// for client work jquary
+
+	var windowBottom = $(window).height()+0;
+	var index=0;
+	$(document).scroll(function(){
+		divposition = parseInt($('.factabout').offset().top);
+		divsrollpos = parseInt($(window).scrollTop());
+		ctop = parseInt(divposition-divsrollpos);
+		if(ctop<Math.round(windowBottom/2)){
+			if(index==0){	
+				
+				$('.timer').each(count);
+				
+			}
+			index++;
+		}
+	});
+
+
+
+	function count(options) {
+		var $this = $(this);
+		options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+		$this.countTo(options);
+	}
+
+});
+</script>
+<!--for theme custom jquery--> 
+<script src="js/custom.js"></script>
+
+        <div id="animatedModal">
+            <div id="closebt-container" class="close-animatedModal">
+                            <br />
+                <center><img class="closebt" src="img/closebt.svg"></center>
+                <br />
+            </div>
+
+            <div id="modal-container" class="col-sm-8 col-md-8 col-lg-8 col-lg-offset-2">
+
+<div style="text-align: center; margin: auto">
+    <br>
+    <iframe width="640" height="390" src="http://www.youtube.com/embed/kC6XIN7W54g?rel=0" frameborder="0" allowfullscreen=""></iframe></div>
+    
+    <!-- ANPIC Esp-->
+    <div style="text-align: center; margin: auto">
+    <br>
+    <p>  </p>
+    <iframe width="640" height="390" src="http://www.youtube.com/embed/maahyK4_sA8?rel=0" frameborder="0" allowfullscreen=""></iframe></div>
+
+    <!-- Curtume -->
+    <div style="text-align: center; margin: auto">
+    <br>
+    <p> </p>
+    <iframe width="640" height="390" src="https://www.youtube.com/embed/eNYgMEWb22c" frameborder="0" allowfullscreen=""></iframe></div>
+    <p> <br> </p>
+
+           </div>
+
+        </div>
+
+        <div id="lightSpeedIn" style="background-color: #5096c8;">
+            <div id="closebt-container" class="close-lightSpeedIn">
+            <br />
+                <center><img class="closebt" src="img/closebt.svg"></center>
+                <br />
+            </div>
+            <div id="modal-container" class="col-sm-8 col-md-8 col-lg-8 col-lg-offset-2">
+      <center>
+      <img src="images/romanscad.png">
+      <br />
+      <br />
+      <img src="https://static.wixstatic.com/media/c4584c_b57e87ed4e0b4f1da9e07ffd5ee6a1a3.jpg/v1/fill/w_474,h_316,al_c,q_80,usm_0.66_1.00_0.01/c4584c_b57e87ed4e0b4f1da9e07ffd5ee6a1a3.jpg">
+      <br />
+      <br />
+      <img src="https://static.wixstatic.com/media/c4584c_1d5bd11feb6642c28d97722dbaf9ce13.jpg/v1/fill/w_474,h_316,al_c,q_80,usm_0.66_1.00_0.01/c4584c_1d5bd11feb6642c28d97722dbaf9ce13.jpg">
+      </center>
+      </div>
+      </div>
+
+        <div id="teste">
+            <div id="closebt-container" class="close-teste">
+            <br />
+                <center><img class="closebt" src="img/closebt.svg"></center>
+              <br />
+            </div>
+            <div id="modal-container" class="col-sm-8 col-md-8 col-lg-8 col-lg-offset-2">
+            <center>
+            <br />
+              <img src="images/ivendre.png" alt="iVendre">
+              <br />
+              <br />
+              <img src="images/iosandroid.png" >
+              <br />
+              <br />
+              <img src="images/kundenerp.png">
+            </center>
+           </div>
+        </div>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/animatedModal.min.js"></script>
+        <script src="js/main2.js"></script>
+</body>
+</html>

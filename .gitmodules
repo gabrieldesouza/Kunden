@@ -1,0 +1,3 @@
+[submodule "Kunden"]
+	path = Kunden
+	url = https://github.com/gabrieldesouza/Kunden
